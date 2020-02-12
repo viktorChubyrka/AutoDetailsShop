@@ -51,15 +51,192 @@
                 АССОРТИМЕНТ
                 <v-icon style="color:white;">menu</v-icon>
               </button>
-              <div class="dropdown-content">
-                <a class="dropdown-item" v-for="i in 10" :key="i" href="#"
-                  >Link {{ i }} <v-spacer />
-                  <v-icon style="color: rgb(62, 60, 60);"
-                    >keyboard_arrow_right</v-icon
-                  >
-                </a>
-                <div class="second-dropdown">sadasdsadsa</div>
-              </div>
+              <ul class="dropdown-list">
+                <li class="drpdwn-item">
+                  <h4>Item 1</h4>
+                  <v-spacer /> >
+                  <ul class="sub-dropdown-list">
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 1</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 2</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 3</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 4</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="drpdwn-item">
+                  <h4>Item 2</h4>
+                  <v-spacer /> >
+                  <ul class="sub-dropdown-list">
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 1</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 2</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 3</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 4</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="drpdwn-item">
+                  <h4>Item 3</h4>
+                  <v-spacer /> >
+                  <ul class="sub-dropdown-list">
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 1</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 2</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 3</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 4</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="drpdwn-item">
+                  <h4>Item 4</h4>
+                  <v-spacer /> >
+                  <ul class="sub-dropdown-list">
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 1</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 2</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 3</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                    <li class="sub-dropdown-item">
+                      <h4>Super Item 4</h4>
+                      <v-spacer />>
+                      <ul class="super-sub-dropdown-list">
+                        <li class="super-sub-dropdown-item">Super-sub-item 1</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 2</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 3</li>
+                        <li class="super-sub-dropdown-item">Super-sub-item 4</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </div>
 
             <div class="toolbar-nav-componenet"><h4>АККУМУЛЯТОРЫ</h4></div>
@@ -74,6 +251,9 @@
           </div>
         </div>
       </div>
+      <div class="content">
+        <div class="search-auto"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -85,6 +265,21 @@
 }
 .header {
   width: 100%;
+}
+.content {
+  width: 80%;
+  max-width: 80%;
+  margin: auto;
+  padding: 0%;
+}
+.search-auto {
+  min-width: 100%;
+  border: 2px solid rgb(92, 125, 245);
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 10px;
+
+  height: 250px;
+  margin: 1% 0%;
 }
 .first-floor {
   width: 80%;
@@ -144,10 +339,7 @@ a {
 .numbers {
   padding-bottom: 1%;
 }
-.dropdown-menu {
-  margin-right: 1%;
-  display: ;
-}
+
 .dropbtn {
   padding-top: 5%;
   text-align: center;
@@ -155,36 +347,61 @@ a {
   font-weight: bold;
   color: white;
 }
-.dropdown-content {
+.sub-dropdown-list {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 15%;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: 78%;
+  margin-top: -5%;
+  min-width: 100%;
   z-index: 1;
 }
-.dropdown-menu:hover .dropdown-content {
-  display: block;
-}
-.dropdown-content a {
-  color: rgb(62, 60, 60);
-  padding: 12px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  display: flex;
-}
-.dropdown-content a {
-  color: rgb(62, 60, 60);
-  padding: 12px 16px;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  display: flex;
+.super-sub-dropdown-list{
+  display: none;
+  position: absolute;
+  margin-left: 78%;
+  margin-top: -5%;
+  min-width: 100%;
+  z-index: 1;
 }
 
-.dropdown-item:hover {
-  background-color: gainsboro;
+.sub-dropdown-item:hover .super-sub-dropdown-list {
+  display: block;
+}
+.drpdwn-item:hover .sub-dropdown-list {
+  display: block;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  margin-left: -28px;
+  min-width: 20%;
+
+  z-index: 1;
+}
+.dropdown-list li {
+  display: flex;
+  color: white;
+  list-style: none;
+  background-color: rgba(0, 206, 209, 0.912);
+  padding: 2%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6% 3%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-menu:hover .dropdown-list {
+  display: block;
+}
+.drpdwn-item:hover {
+  background-color: rgba(108, 199, 201, 0.912);
+}
+.sub-dropdown-item:hover{
+   background-color: rgba(108, 199, 201, 0.912);
+
+}
+.super-sub-dropdown-item:hover{
+  background-color: rgba(108, 199, 201, 0.912);
 }
 
 .toolbar-nav-componenet {

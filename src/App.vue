@@ -1,5 +1,7 @@
 <template>
-  <home style="margin:0%;padding:0%;width:100%"></home>
+  <div>
+    <home style="margin:0%;padding:0%;min-width:100%"></home>
+  </div>
 </template>
 
 <script>
@@ -15,3 +17,4 @@ export default {
   }
 };
 </script>
+<style></style>

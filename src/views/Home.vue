@@ -315,6 +315,49 @@
       <div class="content">
         <router-view></router-view>
       </div>
+      <div class="footer">
+        <div class="footer-first-flor">
+          <div>
+            <h2>О нас</h2>
+          </div>
+          <div>
+            <h2>Доставка</h2>
+          </div>
+          <div>
+            <h2>Оплата</h2>
+          </div>
+          <div>
+            <h2>Возврат/Гарантия</h2>
+          </div>
+          <div>
+            <h2>Пользовательськое соглашение</h2>
+          </div>
+          <div>
+            <h2>Контакты</h2>
+          </div>
+        </div>
+        <div class="footer-second-flor"></div>
+      </div>
+    </div>
+    <v-dialog v-model="login" max-width="80%">
+      <v-card style="background-color:#eafaff;height:100%">
+        <v-card-title class="headline">Регистрация</v-card-title>
+        <div class="login-form">
+          <h4>Логин</h4>
+          <input type="text" />
+          <h4>E-mail или номер телефона</h4>
+          <input type="text" />
+          <h4>Пароль</h4>
+          <input type="text" />
+        </div>
+        <v-card-actions style="margin-left:4%;padding-bottom:4%;">
+          <v-btn color="green lighten-1" text @click="dialog = false">Регистрация</v-btn>
+          <v-btn color="green lighten-1" text @click="dialog = false">Отмена</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+    <div class="call-us">
+      <v-icon class="phone" color="white" x-large>phone</v-icon>
     </div>
   </div>
 </template>
@@ -322,26 +365,48 @@
 export default {
   data() {
     return {
-      phoneOn: true,
       login: false,
-      els: ["a", "b", "c", "d", "e", "t", "y", "u", "y", "t"],
-      methods: {
-        variateTextAndIcon() {
-          setInterval();
-        }
-      }
+      methods: {}
     };
   }
 };
 </script>
 <style>
+.footer {
+  width: 100%;
+  background-color: darkturquoise;
+  color: white;
+  border-top: 2px solid red;
+}
+.footer-first-flor {
+  width: 70%;
+  margin: auto;
+  display: table;
+}
+.footer-first-flor div {
+  float: left;
+  margin: 1% 2%;
+  font-size: 10px !important;
+}
+.footer-first-flor div h2 {
+  font-size: 16px !important;
+}
+.footer-first-flor div:hover h2 {
+  color: rgb(226, 57, 57) !important;
+  cursor: pointer;
+}
+.footer-second-flor {
+  width: 100%;
+  height: 100px;
+  border-top: 3px solid rgb(14, 188, 191);
+}
 h2,
 h3 {
   font-size: 1.8vw;
 }
 .call-us {
   position: fixed;
-  bottom: 3%;
+  bottom: 8%;
   right: 5%;
   width: 80px;
   height: 80px;
@@ -362,15 +427,19 @@ h3 {
 @keyframes callAnim {
   0% {
     transform: rotate(10deg);
+    text-shadow: 0px 0px 10px #505663;
   }
   5% {
     transform: rotate(-10deg);
+    text-shadow: 0px 0px 10px #505663;
   }
   10% {
     transform: rotate(10deg);
+    text-shadow: 0px 0px 10px #505663;
   }
   15% {
     transform: rotate(-10deg);
+    text-shadow: 0px 0px 10px #505663;
   }
   100% {
     transform: rotate(0deg);

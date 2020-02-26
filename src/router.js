@@ -3,8 +3,8 @@ import Router from "vue-router";
 
 Vue.use(Router);
 
-import Home from "./views/Home.vue";
 import MainPage from "./views/MainPage.vue";
+import ItemDetails from "./views/ItemDetails.vue";
 
 export default new Router({
   mode: "history",
@@ -12,7 +12,7 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Home",
+      name: "MainPage",
       component: MainPage
     },
     {

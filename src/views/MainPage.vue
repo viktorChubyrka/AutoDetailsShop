@@ -137,29 +137,14 @@
         </div>
       </div>
     </div>
-    <v-dialog v-model="login" max-width="80%">
-      <v-card style="background-color:#eafaff;height:100%">
-        <v-card-title class="headline">Регистрация</v-card-title>
-        <div class="login-form">
-          <h4>Логин</h4>
-          <input type="text" />
-          <h4>E-mail или номер телефона</h4>
-          <input type="text" />
-          <h4>Пароль</h4>
-          <input type="text" />
-        </div>
-        <v-card-actions style="margin-left:4%;padding-bottom:4%;">
-          <v-btn color="green lighten-1" text @click="dialog = false">Регистрация</v-btn>
-          <v-btn color="green lighten-1" text @click="dialog = false">Отмена</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
-    <div class="call-us">
-      <v-icon v-if="phoneOn" class="phone" color="white" x-large>phone</v-icon>
-      <h4 v-else style="padding-top:10%;color:white;font-size:3vw">
-        Позвоните
-        <br />нам
-      </h4>
-    </div>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      els: ["a", "b", "c", "d", "e", "t", "y", "u", "y", "t"]
+    };
+  }
+};
+</script>
